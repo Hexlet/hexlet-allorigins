@@ -6,9 +6,8 @@
   "main": "server.js",
   "license": "MIT",
   "scripts": {
-    "test": "yarn prettier && jest --coverage",
-    "push": "vpdate && git push",
-    "prettier": "prettier -c ./test ./app"
+    "test": "jest --coverage",
+    "push": "vpdate && git push"
   },
   "dependencies": {
     "agentkeepalive": "^4.1.3",
