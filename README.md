@@ -15,7 +15,7 @@ A free and open source javascript clone of [AnyOrigin](https://web.archive.org/w
 To `fetch` data from http://wikipedia.org:
 
 ```js
-fetch(`https://hexlet-allorigins.hexlet.app/get?url=${encodeURIComponent('https://wikipedia.org')}`)
+fetch(`https://allorigins.hexlet.app/get?url=${encodeURIComponent('https://wikipedia.org')}`)
   .then(response => {
     if (response.ok) return response.json()
     throw new Error('Network response was not ok.')
@@ -26,7 +26,7 @@ fetch(`https://hexlet-allorigins.hexlet.app/get?url=${encodeURIComponent('https:
 Or with jQuery
 
 ```js
-$.getJSON('https://hexlet-allorigins.hexlet.app/get?url=' + encodeURIComponent('https://wikipedia.org'), function (data) {
+$.getJSON('https://allorigins.hexlet.app/get?url=' + encodeURIComponent('https://wikipedia.org'), function (data) {
     alert(data.contents);
 });
 ```
@@ -35,21 +35,21 @@ $.getJSON('https://hexlet-allorigins.hexlet.app/get?url=' + encodeURIComponent('
 
 ###### charset
 **Description:** Set the response character encoding (charset)  \
-**Example:** `https://hexlet-allorigins.hexlet.app/get?charset=ISO-8859-1&url=https://pt.wikipedia.org/`
+**Example:** `https://allorigins.hexlet.app/get?charset=ISO-8859-1&url=https://pt.wikipedia.org/`
 
 
 ###### raw
 **Description:** Get the raw contents ([CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS))  \
-**Example:** `https://hexlet-allorigins.hexlet.app/raw?url=https://example.org/`
+**Example:** `https://allorigins.hexlet.app/raw?url=https://example.org/`
 
 ###### callback
 **Description:** Get a [JSONP](https://www.w3schools.com/js/js_json_jsonp.asp) response  \
-**Example:** `https://hexlet-allorigins.hexlet.app/get?callback=myFunc&url=https://example.org/`
+**Example:** `https://allorigins.hexlet.app/get?callback=myFunc&url=https://example.org/`
 
 
 ###### disableCache
 **Description** Disable caching responses \
-**Example** `https://hexlet-allorigins.hexlet.app/get?disableCache=true&url=https://pt.wikipedia.org/`
+**Example** `https://allorigins.hexlet.app/get?disableCache=true&url=https://pt.wikipedia.org/`
 
 
 ### On your own server
