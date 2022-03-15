@@ -1,6 +1,8 @@
 All Origins
 =======
 
+[![github action status](https://github.com/Hexlet/hexlet-allorigins/workflows/Node%20CI/badge.svg)](../../actions)
+
 Pull contents from any page via API (as JSON/P or raw) and avoid [Same-origin policy](https://en.wikipedia.org/wiki/Same-origin_policy) problems.
 
 
